@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Tìm số chẵn số lẻ nhỏ hơn 100 -->
+    <div class="w-100 py-5">
+        <div class="card" style="width: 40rem;">
+            <div class="card-header text-white bg-success text-center">
+                <h2>Tìm số chẵn, lẻ nhỏ hơn 100</h2>
+            </div>
+            <div class="card-body">       
+            </div>
+            <button class="btn btn-warning" style="margin-left: 15rem; width: 150px;border-radius:20px" id="submit">Thực hiện</button> <br>
+
+            <p id="txtResultCL" class="alert alert-danger" style="text-align:center;"></p>
+        </div>
+    </div>
+
+
+    <!-- Đếm số chia hết cho 3 -->
+    <div class="w-100 py-5">
+        <div class="card" style="width: 40rem;">
+            <div class="card-header text-white bg-success text-center">
+                <h2>Tìm số chia hết cho 3 nhỏ hơn 1000</h2>
+            </div>
+            <div class="card-body">
+                
+            </div> 
+            <button class="btn btn-warning" style="margin-left: 15rem; width: 150px;border-radius:20px" id="btnCHC3">Thực hiện</button> <br>
+            <p id="txtResultCHC3" class="alert alert-danger" style="text-align:center;"></p>
+        </div>
+    </div>
+
+
+    <!-- Tìm số nguyên dương nhỏ nhất -->
+
+    <div class="w-100 py-5">
+        <div class="card" style="width: 40rem;">
+            <div class="card-header text-white bg-success text-center">
+                <h2>Tìm số nguyên dương nhỏ nhất</h2>
+            </div>
+            <div class="card-body">
+                
+            </div> 
+            <button class="btn btn-warning" style="margin-left: 15rem; width: 150px;border-radius:20px" id="btnSoDuong">Thực hiện</button> <br>
+            <p id="txtResultSoDuong" class="alert alert-danger" style="text-align:center;"></p>
+        </div>
+    </div>
+
+
+    <!-- Tính tổng -->
+
+    <div class="w-100 py-5">
+        <div class="card" style="width: 40rem;">
+            <div class="card-header text-white bg-success text-center">
+                <h2>Tính tổng</h2>
+            </div>
+            <div class="card-body">
+                <input type="number" name="" id="soX" placeholder="Nhập số x">&emsp; &emsp; &emsp; 
+                <input type="number" name="" id="soN" placeholder="Nhập số n">
+            </div> 
+            <button class="btn btn-warning" style="margin-left: 15rem; width: 150px;border-radius:20px" id="btnTong">Thực hiện</button> <br>
+            <p id="txtResultTong" class="alert alert-danger" style="text-align:center;"></p>
+        </div>
+    </div>
+
+     <!-- Tính giai thừa -->
+
+     <div class="w-100 py-5">
+        <div class="card" style="width: 40rem;">
+            <div class="card-header text-white bg-success text-center">
+                <h2>Tính gia thừa</h2>
+            </div>
+            <div style="text-align:center ;" class="card-body">
+                <input type="number" name="" id="soNguyenN" placeholder="Nhập số n">
+            </div>
+            <button class="btn btn-warning" style="margin-left: 15rem; width: 150px;border-radius:20px" id="btnGiaiThua">Thực hiện</button> <br>
+            <p id="txtResultGiaiThua" class="alert alert-danger" style="text-align:center;"></p>
+        </div>
+    </div>
+
+
+    <!-- In ra số chẵn số lẻ-->
+
+    <div class="w-100 py-5">
+        <div class="card" style="width: 40rem;">
+            <div class="card-header text-white bg-success">
+                <h2 class="text-center">In ra số chẵn, số lẻ</h2>
+            </div>
+            <div  class="card-body">
+            </div>
+            <button class="btn btn-warning" style="margin-left: 15rem; width: 150px;border-radius:20px" id="btnChanLe">Tạo div</button> <br>
+            <div id="txtResultChanLe" class="alert"></div>
+        </div>
+    </div>
+
+<!-- Số nguyên tố-->
+
+<div class="w-100 py-5">
+    <div class="card" style="width: 40rem;">
+        <div class="card-header text-white bg-success text-center">
+            <h2>Số Nguyên Tố</h2>
+        </div>
+        <div style="text-align:center ;" class="card-body">
+            <input type="number" name="" id="soNguyenTo" placeholder="Nhập số n">
+        </div>
+        <button class="btn btn-warning" style="margin-left: 15rem; width: 150px;border-radius:20px" id="btnSoNguyenTo">In số</button> <br>
+        <p id="txtResultSoNguyenTo" class="alert alert-danger" style="text-align:center;"></p>
+    </div>
+</div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+    crossorigin="anonymous"></script>
+
+
+    <script src="../baiTapJSBuoi6/js/baiTap.js"></script>
+</body>
+</html>
